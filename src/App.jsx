@@ -1,5 +1,7 @@
 import './App.css';
 import Count from './Counter.jsx';
+import Batsman from './Batsman.jsx';
+import Name from './Name.jsx';
 
 function App() {
   function handleClick(){
@@ -17,6 +19,8 @@ function App() {
   return (
     <>
     <h3>React and Vite</h3>
+    <Name></Name>
+    <Batsman></Batsman>
     <Count></Count>
     <button onClick={handleClick}>Click me</button>
     <button onClick={handleLogin}>login</button>
